@@ -22,6 +22,7 @@ function Home() {
             <span>{movies.map((movie) =>
                 <Movie
                     key={movie.id}
+                    id={movie.id}
                     medium_cover_image={movie.medium_cover_image} alt={movie.title}
                     title={movie.title}
                     year={movie.year}
